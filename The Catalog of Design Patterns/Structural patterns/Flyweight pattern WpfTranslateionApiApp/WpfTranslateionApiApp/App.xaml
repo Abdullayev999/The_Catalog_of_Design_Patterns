@@ -1,0 +1,30 @@
+﻿<Application x:Class="WpfTranslateionApiApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:WpfTranslateionApiApp.ViewModels"
+             xmlns:v="clr-namespace:WpfTranslateionApiApp.Views"
+             xmlns:local="clr-namespace:WpfTranslateionApiApp">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+                <v:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:InformationViewModel}">
+                <v:SettingView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:TranslationViewModel}">
+                <v:TranslationView/>
+            </DataTemplate>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

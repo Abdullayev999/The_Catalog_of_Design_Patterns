@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WpfTranslateionApiApp.Views.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:themes="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:local="clr-namespace:WpfTranslateionApiApp.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450"  d:DesignWidth="800">
+    <themes:Card Background="LightGray" Margin="10" BorderThickness="3" BorderBrush="Black">
+        <UniformGrid Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" Rows="3" Columns="0">
+            <themes:Card Margin="5" Background="Yellow">
+                <Button Command="{Binding TranslationCommand}" Margin="10" Height="50" Cursor="Hand">Start</Button>
+            </themes:Card>
+            <themes:Card Margin="5" Background="Yellow">
+                <Button Command="{Binding InformationCommand}" Margin="10" Height="50" Cursor="Hand">Information</Button>
+            </themes:Card>
+            <themes:Card Margin="5" Background="Yellow">
+                <Button Command="{Binding ExitCommand}" Margin="10" Height="50">Exit</Button>
+            </themes:Card>
+        </UniformGrid>
+    </themes:Card>
+</UserControl>

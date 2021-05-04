@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Factory_Method_Pattern.Fireball" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fireball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Firestorm" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Firestorm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Frostbolt" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frostbolt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Heal" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Heal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Healer" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Healer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.HealerFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealerFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Factory_Method_Pattern.Program" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Resurrect" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resurrect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Spell" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.Warlock" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Warlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method_Pattern.WarlockFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>WarlockFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Factory_Method_Pattern.Wizzard" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAAAAAEAAAAA=</HashCode>
+      <FileName>Wizzard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Factory_Method_Pattern.IWizzardFactory" Collapsed="true">
+    <Position X="18" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWizzardFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

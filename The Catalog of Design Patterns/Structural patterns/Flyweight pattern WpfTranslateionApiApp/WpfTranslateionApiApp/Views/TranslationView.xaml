@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="WpfTranslateionApiApp.Views.TranslationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:themes="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:local="clr-namespace:WpfTranslateionApiApp.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel Background="LightGray">
+        <themes:Card Margin="10"  DockPanel.Dock="Top">
+            <DockPanel Background="Moccasin">
+                <Button Margin="10" Command="{Binding BackCommand}" DockPanel.Dock="Right">✖</Button>
+                <Label Margin="70,0,0,0"  HorizontalAlignment="Center" FontSize="30">Google Translation</Label>
+            </DockPanel>
+        </themes:Card>
+
+        <UniformGrid Background="Moccasin" Columns="3" Rows="0" DockPanel.Dock="Bottom">
+            <Button  Command="{Binding ClearChacheCommand}" Width="140">Clear Cache 🗑</Button>
+            <Label Foreground="Red" Content="{Binding SizeKB,UpdateSourceTrigger=PropertyChanged}" Margin="0,0,15,0" FontWeight="Black" FontSize="25" ></Label>
+            <Label Foreground="Green" Content="{Binding ReadInfo,UpdateSourceTrigger=PropertyChanged}" Margin="0,0,15,0" FontWeight="Black" FontSize="25" ></Label>
+        </UniformGrid>
+
+        <themes:Card Background="Moccasin" Margin="10" Height="40" DockPanel.Dock="Top">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox Background="White" SelectedIndex="{Binding SelectFrom,UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding List}" Height="30" Width="200" Grid.Column="0"/>
+                <ComboBox Background="White" SelectedIndex="{Binding SelectTo,UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding List}" Height="30" Width="200" Grid.Column="1"/>
+            </Grid>
+        </themes:Card>
+        <themes:Card Background="Moccasin" Margin="10">
+            <UniformGrid Margin="10" Columns="2" Rows="0">
+                <themes:Card Margin="10">
+                    <TextBox  Text="{Binding From,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                </themes:Card>
+                <themes:Card Margin="10">
+                    <TextBlock Text="{Binding To,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+                </themes:Card>
+            </UniformGrid>
+        </themes:Card>
+    </DockPanel>
+</UserControl>

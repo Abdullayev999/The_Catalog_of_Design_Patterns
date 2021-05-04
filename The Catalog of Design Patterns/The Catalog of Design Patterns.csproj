@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>The_Catalog_of_Design_Patterns</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational patterns\" />
+    <Folder Include="Structural patterns\" />
+    <Folder Include="Behavioral patterns\" />
+  </ItemGroup>
+
+</Project>

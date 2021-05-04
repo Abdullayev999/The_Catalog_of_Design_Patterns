@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter Pattern", "Adapter Pattern\Adapter Pattern.csproj", "{56D3D22F-4D62-4B78-94C0-73D91EE18580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json", "JsonSaveLoad\Json.csproj", "{C0B23D11-9D3D-432D-BAFF-DF1DDD6EDCCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xml", "XML\Xml.csproj", "{B3936FCA-278E-493D-AEB0-8979FED78203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D3D22F-4D62-4B78-94C0-73D91EE18580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D3D22F-4D62-4B78-94C0-73D91EE18580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D3D22F-4D62-4B78-94C0-73D91EE18580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D3D22F-4D62-4B78-94C0-73D91EE18580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B23D11-9D3D-432D-BAFF-DF1DDD6EDCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B23D11-9D3D-432D-BAFF-DF1DDD6EDCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B23D11-9D3D-432D-BAFF-DF1DDD6EDCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B23D11-9D3D-432D-BAFF-DF1DDD6EDCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3936FCA-278E-493D-AEB0-8979FED78203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3936FCA-278E-493D-AEB0-8979FED78203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3936FCA-278E-493D-AEB0-8979FED78203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3936FCA-278E-493D-AEB0-8979FED78203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC980539-4918-4DB9-B495-2372033171DC}
+	EndGlobalSection
+EndGlobal
